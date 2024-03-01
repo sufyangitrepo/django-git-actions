@@ -3,11 +3,11 @@ name: Django Github ACTION
 on:
     push:
         branches:
-            -main
+            - main
 
     pull_request: 
         branches: 
-            -main
+            - main
 
 
 # on:
