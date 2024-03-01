@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 
 class Post(models.Model):
 
@@ -12,5 +11,4 @@ class Post(models.Model):
         return Post.objects.filter(name=name)
 
     def __str__(self) -> str:
-        return str(self.name) 
-    
+        return str(self.name)
